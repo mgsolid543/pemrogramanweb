@@ -1,17 +1,17 @@
 <html>
     <head>
         <title>
-            Border
+            Box Sizing
         </title>
         <style>
             p {
                 background: orange;
                 width: 160px;
                 height: 160px;
-                padding: 20px 50px 30px 25px;
-                       /*top  right bottom left */
-
-                border: 2px dashed blue;                         
+                padding: 40px;
+                box-sizing: content-box;
+                /* width + padding-left + padding-right 
+                    160px + 40px + 40px = 240px */                  
             }
         </style>
     </head>
