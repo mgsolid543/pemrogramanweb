@@ -1,0 +1,52 @@
+div
+{
+    display: block;
+}
+
+block:
+ - membuat garis baru
+ - bisa diset lebar dan tinggi
+ - jika lebar tdk diset, maka lebarnya memenuhi lebar parent/induknya
+ - di dalamnya bisa disimpan elemen block, inline, inline-block.
+
+element html yang memiliki nilai block:
+ - <h1> ... </h6>
+ - <p> 
+ - <ul>
+ - <ol>
+ - <li>
+ - <form>
+ - <hr>
+
+inline:
+- tidak membuat garis baru
+- lebar dan tinggi sebesar konten yang ada di dalamnya
+- lebar dan tinggi tidak bisa diatur
+- margin dan padding hanya mempengaruhi elemen secara horizontal, tidak vertikal
+
+inline-block:
+- tidak ada element HTML yang defaultnya bertipe inline-block
+- nilai property display bisa diset manual menjadi inline-block
+- sifat dasar sama dengan inline
+- inline-block akan berpengaruh kepada width dan height
+
+element html yang memiliki nilai inline:
+<b> <i> <strong> <a> <span> <sub> <sup> <button> <input> <label> <select>
+<textarea>
+
+none : digunakan untuk menyembunyikan element dari layar browser
+
+property dimensi:
+
+    width
+    height
+    min-width
+    min-height
+    max-width
+    max-height
+
+span
+{
+
+    display: inline;
+}
