@@ -1,0 +1,87 @@
+meet 5 - CSS
+------------
+
+# Box Model
+
+    setiap elemen HTML direpresentasikan sbg sebuah kotak
+    ada panjang, lebar, border, dll.
+
+ Komponen: 
+   - margin : jarak spasi antar elemen, (sifat transparent)
+   - border : batas garis yang mengelilingi padding dan content
+   - padding : jarak spasi antar border dan content
+   - content : isi element, bisa text atau elemen lain.
+
+property:
+- margin: margin-top, margin-bottom, margin-left, margin-right
+        nilai disi : px, %, auto
+        contoh:
+        margin-top: 10px
+        margin-right: 40%
+        margin-bottom: -12
+
+        penulisan:
+        margin: 20px 50px 30px 25px;
+        margin: 20px;
+        margin: {top} {right} {bottom} {left};
+
+
+- padding: padding-top, padding-bottom, padding-left, padding-right
+    penulisan:
+        padding: 20px   50px   30px      25px;
+        padding: {top} {right} {bottom} {left};
+
+- border: border-top, botder-bottom, border-left, border-right
+
+    penulisan:
+        border: width style color:
+
+        width: ketebalan border
+        style: bentuk garis : dotted, dashed, solid
+        color: warna border'
+
+        contoh: border : 2px solid red;
+
+
+box-sizing: content-box, border-box
+overflow: visible, auto, scroll, hidden
+
+#CSS Float
+float: left, right, none
+    secara default float: none;
+
+#CSS Background
+background-color: warna:
+
+    definisi warna:
+        - hexadecimal -> #ff0000;  (merah)
+        - RGB -> rgb(255, 0, 0);
+        - red, yellow
+
+background-image: url(image.jpg)
+background-repeat: repeat-x repeat-y;
+background-position: left top, left center, left bottom, right top, right bottom,
+center top, center center, center bottom.
+
+CSS text
+Font Styling
+
+color
+text-align
+text-indent
+text-decoration
+text-transform : uppercase, lowercase, capitalize
+letter-spacing : spasi antar huruf
+word-spacing : spasi antar kata
+
+17 oct 2020
+1. Cucu Siti Wahyuni
+2. Fauzi Immamulhaq
+3. Feryn Febriany
+4. Hanif Abdurrahman
+5. Hasni Nurhasanah
+6. Rimayanti
+
+
+ 
+

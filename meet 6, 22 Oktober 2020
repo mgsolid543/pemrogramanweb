@@ -1,0 +1,51 @@
+meet 6
+kamis, 22 Oktober 2020
+-------------------------
+
+
+1. Cucu Siti Wahyuni
+2. Hanif Abdurrahim
+3. Hasni Nurhasanah
+4. Muhammad Juwaeni
+5. Rimayanti
+6. Moh. Alfian
+
+
+#CSS Position
+ 4 Position: 
+  - static (default)
+  - relative 
+  - absolute
+  - fixed
+
+1. position: static
+    - nilai default element HTML akan static jika tidak diberi property static
+    - kalau menggunakan position selain static (non-static)
+      membuat element seolah-olah berbeda dimensi dari element lain.
+    - dapat menggunakan properti : top, left, bottom, right
+    
+2. position: relative
+   - ketika menggerakkan element menggunakan top, left, bottom. right
+    ruang yang ditempati element masih ada
+   - element akan bergerak relatif terhadap posisi awal (semula)
+   - jika kita set properti top: 0, left: 0. element tdk berubah posisinya.
+
+3. position: absolute
+   - ketika menggerakkan element menggunakan top, left, bottom, right
+    ruang yang ditempati element dianggap tidak ada
+   - element akan bergerak relatif terhadap posisi dan element parent-nya,
+     selama element parent sama-sama posisi non-static.
+  - jika kita set properti top: 0, left: 0. element akan berada di ujung kiri 
+  atas element-nya.
+
+  - jika absolute tidak memiliki parent relative 
+     maka posisi tidak akan mengikuti parentnya
+  - jika absolute memiliki parent relative 
+     maka posisi akan mengikuti parentnya
+
+4. position: fixed
+
+
+
+
+
