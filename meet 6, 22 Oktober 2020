@@ -9,7 +9,7 @@ kamis, 22 Oktober 2020
 4. Muhammad Juwaeni
 5. Rimayanti
 6. Moh. Alfian
-
+7. Vena Pindia
 
 #CSS Position
  4 Position: 
@@ -44,6 +44,13 @@ kamis, 22 Oktober 2020
      maka posisi akan mengikuti parentnya
 
 4. position: fixed
+- ketika menggerakkan element menggunakan top, left, bottom, right
+    ruang yang ditempati element dianggap tidak ada
+- element akan bergerak relatif terhadap window (browser),
+     meskipun element parent nya non-static.
+- jika kita set properti top: 0, left: 0. 
+   maka element akan berada di ujunhg kiri atas parentnya.
+- element akan terkunci dan tidak bergerak meskipun halaman web di-scroll
 
 
 
