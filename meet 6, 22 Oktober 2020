@@ -10,6 +10,7 @@ kamis, 22 Oktober 2020
 5. Rimayanti
 6. Moh. Alfian
 7. Vena Pindia
+8. Feryn
 
 #CSS Position
  4 Position: 
@@ -51,6 +52,41 @@ kamis, 22 Oktober 2020
 - jika kita set properti top: 0, left: 0. 
    maka element akan berada di ujunhg kiri atas parentnya.
 - element akan terkunci dan tidak bergerak meskipun halaman web di-scroll
+
+
+# CSS Font
+
+Font-family :  mengatur jenis font (huruf) yang akan digunakan
+
+cara penulisan:
+
+body {
+    font-family: arial, verdana, sans-serif;
+}
+
+p {
+    font-familiy: "Times New Roman", serif;
+}
+
+Generic-family : jenis font standar yang disiapkan sbg pengganti jika
+                font-familiy yang dipilih tidak tersedia dalam sistem
+                komputer.
+                contoh: Serif, Sans-serif, Monospace
+Nama Font: familiy name/kelompok font yang memiliki jenis serupa
+            contohL Trebuchet MS Bold, Trebuchet MS Italic, Arial, Times New Roman
+
+Font-size: digunakan untuk mengatur ukuran font (satuan px, %, em)
+Font-weight: digunakan untuk mengatur ketebalan font 
+             (property: lighter, normal, 100 s.d 900, bold, bolder)
+
+font-variant: digunakan untuk mengubah font menjadi small-caps
+font-style: digunakan untuk mengubah font menjadi cetak miring 
+            (normal, italic, oblique)
+
+line-height: digunakan untuk mengatur spasi antar baris 
+            (normal, px, em)
+
+
 
 
 
