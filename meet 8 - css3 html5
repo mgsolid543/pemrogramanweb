@@ -1,0 +1,137 @@
+Meet 8, Sabtu 24 Oktober 2020
+==============================
+
+1. Sodikin Nurholis
+2. Hanif Abdurrahim
+3. Hasni Nurhasanah
+4. Cucu Siti Wahyuni
+5. Feryn Febriany
+6. Muhammad Juwaeni
+7. Rimayanti
+8. Sandi Nur Mei Rohman
+
+
+CSS3 
+----
+Cascading Style Sheet
+    - CSS1 : 1996 
+            Netscape vs IE (Internet Explorer)
+
+    - CSS2 : 1998
+        penyesuaian di tampilan printer
+    
+    - CSS3 : Animasi 3D, media
+
+# Fitur CSS3
+-------------
+- REM Value 
+    satuan 1 rem = 16px
+
+    contoh p { font-size: 0.75rem }
+
+- Background-size : menentukan ukuran gambar Background
+    contoh 
+
+        background-size: auto (gambar ditampilkan sesuai ukuran asli)
+        background-size: cover (gambar akan menutupi seluruh container)
+        background-size: contain (gambar ukuran sesuai ratio dan gambar terlihat)
+                container -> 8:9 (180px 90px)
+                gbr bg    -> 15:9 (150px 90px)
+                gbr background tampil seluruhnya. menyisakan ruang kosong 30px
+
+        background-size: {lebar} {tinggi}
+        background-size: 75px 75px;
+        background-size: 75% 75%;
+
+- CSS Animation
+    minimal versi browser yg mendukung:
+        chrome >= 43
+        ie >= 10
+        firefox >= 16
+        safari >= 9
+        opera >= 30
+
+        contoh : 
+            div {
+                animation-iteration-count: 2;
+            }
+        animation-name
+        animation-duration
+        animation-timing-function: linear | ease | ease-in | ease-out
+                                    ease-in-out | initial | inherit
+        animation-delay
+        animation-iteration-count
+        animation-direction: normal | reverse | alternate | alternate-reverse |
+                            initial | inherit
+
+        animation-fill-mode
+        animation-play-state
+
+    - Pseudoclass
+        :first-child  -> menentukan style khusus untuk elemen pertama (<li>)
+        :last-child -> menentukan style khusus untuk elemen terakhir (<li>)
+        :nth-child(x) -> menentukan style khusus untuk elemen ke-x (<li>)
+        :nth-child(odd) -> menentukan style khusus untuk elemen genap (<li>)
+        :nth-child(even) -> menentukan style khusus untuk elemen ganjil (<li>)
+        
+        :first-letter -> menerapkan style pada karakter pertama
+
+    Box-Shadow -> Efek Shadow/Bayangan pada Box
+    Text-Shadow -> Efek Shadow/Bayangan pada Text
+
+    Border-radius -> membentuk sudut element
+    Gradient-Background -> linear 
+                            radial
+
+    3D-Transform
+        rotateX()
+        rotateY()
+        rotateZ()
+
+HTML5 
+------
+- Doctype ditulis sebelum tag <html>
+HTML5:
+<!DOCTYPE html>
+
+HTML:
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www/w3/org/TR/html4/strict.dtd">
+
+- Tag figure dan figcaption
+- Type Link & JS
+    HTML: 
+        <script src="path/script.js" type="text/javascript"></script>
+
+    HTML5: 
+        <script src="path/script.js"></script>
+- ID & Class
+    HTML: 
+        <p class="myClass" id="myID" >
+    
+    HTML5: 
+        <p class=myClass id=myID >
+
+        <p class="myClass1 myClass2" id=myID >
+
+- UL Editable
+- Placeholders -> tipe input : text, search, url, tel, email, password
+- Required, Readonly
+
+
+
+
+
+
+
+
+Explore: https://www.w3schools.com/
+        
+
+
+
+
+
+
+
+
+
