@@ -9,6 +9,7 @@ Meet 8, Sabtu 24 Oktober 2020
 6. Muhammad Juwaeni
 7. Rimayanti
 8. Sandi Nur Mei Rohman
+9. Fauzi Immamulhaq
 
 
 CSS3 
@@ -115,11 +116,21 @@ HTML:
 
 - UL Editable
 - Placeholders -> tipe input : text, search, url, tel, email, password
-- Required, Readonly
+- Required, Readonly, Autofocus
 
+- Audio: mp3, ogg, wav
+- Video: mp4, ogg, WebM
 
-
-
+- Atribut Data -> menyimpan kustomisasi data 
+    <element data-*="value">
+- Tag Semantic:
+    <aside>
+    <article>
+    <details>
+    <figure>
+    <figcaption>
+    <footer>
+    dll
 
 
 
